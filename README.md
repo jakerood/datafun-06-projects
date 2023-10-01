@@ -72,14 +72,7 @@ Wait for the creation to finish, then **activate** the virtual environment:
 Install additional project dependencies into the active virtual environment.
 The packages ipykernel and jupyterlab are required to run a notebook.
 The packages pandas, matplotlib, and seaborn are used to work with data and charts.
-
-```shell
-python -m pip install --upgrade pip ipykernel jupyterlab
-python -m pip install --upgrade pandas matplotlib seaborn
-python -m pip install --upgrade voila
-```
-
-Alternatively, you can install all the packages listed in the requirements.txt file.
+You can install all the packages listed in the requirements.txt file.
 
 ```shell
 python -m pip install --upgrade -r requirements.txt
@@ -104,8 +97,8 @@ Type `notebook` and select `Jupyter: Create New Blank Notebook`.
 This will create a new notebook in the project folder.
 Save the notebook with a name like `yourname-notebook.ipynb`.
 
-
 -----
+
 If you've created the .venv virtual environment,  installed the necessary packages, 
 and selected a Kernel for your Jupyter Notebook, it should run - 
 even if the code shows a missing package error. See the image below.
